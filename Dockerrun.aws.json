@@ -1,0 +1,16 @@
+{
+   "AWSEBDockerrunVersion": "1",
+   "Authentication": {
+      "Bucket": "vga-credentials", 
+      "Key": "config.json"
+   },
+   "Image": {
+      "Name": "834549009763.dkr.ecr.us-east-1.amazonaws.com/order:latest"
+   },
+   "Ports": [
+      {
+         "ContainerPort": 8000,
+         "HostPort": 80
+      }
+   ]
+}
